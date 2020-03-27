@@ -4,13 +4,13 @@ import renderGrid from "./renders/renderGrid";
 import renderGenerativeWall from "./renders/renderGenerativeWall";
 
 const settings = {
-    dimensions: [2048, 2048]
+  dimensions: [2048, 2048]
 };
 
 const sketch = () => {
-    // return renderGenerativeWall();
-    // return renderGrid();
-    return renderCicle();
+  return renderGenerativeWall();
+  // return renderGrid();
+  // return renderCicle();
 };
 
 canvasSketch(sketch, settings);
